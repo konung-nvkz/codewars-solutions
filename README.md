@@ -1,4 +1,5 @@
 # codewars-tasks-solutions
+
 My variants of codewars tasks. Sometimes ifelses, sometimes more complicated variants. Simply JS
 As I only study how to work with JS (and sometimes Python), most solutions are easy.
 In some cases I will add comments, even if they are obvious for mature programmers.
