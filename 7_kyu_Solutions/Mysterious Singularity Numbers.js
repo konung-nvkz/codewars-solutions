@@ -10,7 +10,7 @@ function realNumbers(n){
     return n - Math.floor(n / 2) - Math.floor(n / 3) - Math.floor(n / 5) + Math.floor(n / 6) + Math.floor(n / 10) + Math.floor(n / 15) - Math.floor(n / 30);
 }
 console.log(Math.floor(5/2));
-console.log(realNumbers(5));
+console.log(realNumbers(75));
 // we use the floor division operator to count the number of integers that are divisible by each of these numbers 
 //and subtracts them from n to get the final count. 
 //It then adds back the number of integers that are divisible by both 2 and 3, 
