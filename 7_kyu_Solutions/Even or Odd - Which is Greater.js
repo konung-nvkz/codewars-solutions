@@ -5,73 +5,26 @@ If the sum of even numbers is greater than the odd numbers return: "Even is grea
 If the sum of odd numbers is greater than the sum of even numbers return: "Odd is greater than Even"
 If the total of both even and odd numbers are identical return: "Even and Odd are the same"
 */
-let arr1 = [1, 2, 3, 4, 5, 6];
-let arr = [7, 2, 3, 4, 5, 6];
 
 function evenOrOdd(str) {
-    let arr = str.split('');
-    let odd = 0;
-    let even = 0;
-    let result = "";
-    for (i=0; i<=arr.length; i++) {
-        if (arr[i] % 2 == 0) {
-            even+=arr[i];
-            console.log(even, odd);
-        } else {
-            odd+=arr[i]; 
-            console.log(even, odd);
+    let arr = str.split(''); // let's make a array out of string
+    let odd = 0; // create counter for odd numbers
+    let even = 0;// create counter for even numbers
+    let result = ""; // create variable for result
+    for (i=0; i<arr.length; i++) { // start iterating elements of the array
+        if (arr[i] % 2 == 0) { //if the number is even
+            even+=+arr[i]; // add it up even sum        
+        } else { //if the number is odd
+            odd+=+arr[i];  // add it up to odd sum
         }
     }
-    if (odd===even) {
-        result = "Even and Odd are the same";
-    } else if (odd > even) {result = "Odd is greater than Even";  
+    if (odd===even) {// compare sums of odd and even
+        result = "Even and Odd are the same"; // set result for case when they are equal
+    } else if (odd > even) {result = "Odd is greater than Even";   //set result for case when odd is greater
     } else {
-        result = "Even is greater than Odd"; 
+        result = "Even is greater than Odd"; // set result for the cae when even is greater
     }
     return result;
 }
+
 console.log(evenOrOdd('123'));
-
-
-function evenOrOdd(str) {
-    let odd=[];
-    let even=[];
-    str.split``.map(v=>(v*1)%2===0?even.push(v):odd.push(v))
-    odd=odd.reduce((a,b)=>a+b*1,0);
-    even=even.reduce((a,b)=>a+b*1,0)
-    return odd>even?'Odd is greater than Even':odd<even?'Even is greater than Odd':'Even and Odd are the same'
-}
-
-
-/*const evenOrOdd = (str) => {
-    const digits = str.split('').map((val) => +val);
-    const { odd, even } = digits.reduce(
-      (acc, val) => {
-        if (val % 2 === 0) {
-          acc.even += val;
-          return acc;
-        }
-        acc.odd += val;
-        return acc;
-      },
-      { odd: 0, even: 0 }
-    );
-  
-    return even === odd
-      ? 'Even and Odd are the same'
-      : even > odd
-      ? 'Even is greater than Odd'
-      : 'Odd is greater than Even';
-  };*/
-
-  function evenOrOdd(str) {
-    let e = 0, o = 0
-    for(let i = 0; i < str.length; i++){
-      if (str[i] % 2){
-        o+=+str[i]  
-      }else{
-        e+= +str[i]
-      }
-    }
-      return o === e ? 'Even and Odd are the same': e > o ? 'Even is greater than Odd' : 'Odd is greater than Even'
-    }
