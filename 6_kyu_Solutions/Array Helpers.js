@@ -74,3 +74,7 @@ Array.prototype.square = function() {
       return value % 2 != 0; 
     });
   }
+
+
+  
+
