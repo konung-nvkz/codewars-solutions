@@ -11,7 +11,7 @@ Good luck!
 function sumSquareEvenRootOdd(nums) {
     let result = 0;  //initialize the counter
     for (let i=0; i<nums.length; i++) { //start iterating through the array of nums
-        if (nums[i]%2==0) { // if the resule is even
+        if (nums[i]%2==0) { // if the result is even
             result += nums[i]**2; // we square it and add to the result. 
             //This case also takes zero, but who cares? At least 0**2 is also zero
         } else {
