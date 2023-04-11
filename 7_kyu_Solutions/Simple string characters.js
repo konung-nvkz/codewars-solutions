@@ -17,7 +17,7 @@ function solve(s){
         lower = s.match(/[a-z]/g) || [];
         number = s.match(/[0-9]/g) || [];
         special = s.match(/[^a-z0-9]/gi) || [];
-    // returning an aray with four variables
+    // returning an array with four variables
     return [upper.length, lower.length, number.length, special.length];
     };
 
