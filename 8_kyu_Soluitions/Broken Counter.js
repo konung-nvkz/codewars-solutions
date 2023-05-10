@@ -5,7 +5,7 @@ Our counter prototype is broken. Can you spot, what's wrong here?
 function Counter() {
         this.value = 0;
     }
-    // to make everything function correct, we need to change () for = function() 
+    // to make everything function correct, we need to change "()" for "= function() ""
     Counter.prototype.increase = function() {
         this.value++;
     };
