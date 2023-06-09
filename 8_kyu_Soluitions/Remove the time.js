@@ -19,7 +19,7 @@ function shortenToDate(longDate) {
     return result;
 }
 //this is how it works:
-// comma (,) takes away unnecessary part of the string  
+// comma (,) put in the array takes away unnecessary part of the string  
 //split method divides the sring into several parts, you only need to fill the divisor
 
 
