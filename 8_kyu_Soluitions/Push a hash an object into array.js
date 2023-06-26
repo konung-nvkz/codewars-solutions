@@ -7,5 +7,5 @@ let items = [];
 items.push ({a: "b", c: "d"});
 
 //small comment on it: 
-// firs lne is to initialize the empty aray
+// first line is to initialize the empty array
 // the second needs brackets for .push method to work properly
