@@ -16,7 +16,7 @@ Constraint:
 
 const quarterOf = (month) => {
 
-    let quarter = '';
+    let quarter = 0;
     
     switch (month) {
         case 1:
