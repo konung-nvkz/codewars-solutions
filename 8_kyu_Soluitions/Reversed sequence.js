@@ -13,4 +13,12 @@ function reverseSeq(n) {
     return arr;
 }
 
+
+//map to fill array without reverse
+const reverseSeq = num => {
+    return new Array(num)
+        .fill()
+        .map((d, i) => i + 1)
+};
+
 console.log(reverseSeq(5));
