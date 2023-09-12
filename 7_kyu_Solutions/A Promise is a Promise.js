@@ -16,3 +16,11 @@ console.log(promiseHelloWorld());
 //arrow function
 const promiseHelloWorld = async () => 'Hello World!';
 console.log(promiseHelloWorld());
+
+//old style (usual function syntax)
+function promiseHelloWorld() {
+    return new Promise((resolve, reject) => {
+        return resolve('Hello World!')
+        });
+}
+console.log(promiseHelloWorld());
