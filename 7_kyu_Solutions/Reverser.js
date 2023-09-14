@@ -12,7 +12,7 @@ const forbidden = "
 */
 //Mathematical way of solving the task
 // we take the task into steps:
-// first we take the result as 0остаток от делениядробная часть
+// first we take the result as 0
 // at each iteration we multiply the result by 10 to move the digit to the left
 // and add the digit from the remainder of the division by 10
 // and change the number to the number/10 minus fraction
