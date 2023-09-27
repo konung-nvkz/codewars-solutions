@@ -3,7 +3,6 @@
 # dependencies
 /node_modules
 /not_used
-/webpack.config.js
 
 
 # testing
