@@ -43,4 +43,5 @@ Some day in future when I become older and decide to do a catalogue, this may le
 
 <h2> Stats </h2>
 My current Codewars stats:
+
 ![Codewars](https://www.codewars.com/users/konung-nvkz/badges/small)
