@@ -30,7 +30,7 @@ function isValid(idn) {
 // $ asserts the end of the string.
 
 
-
+//Test cases:
   console.log(isValid("myVariable")); // true
   console.log(isValid("_privateVariable")); // true
   console.log(isValid("$constant")); // true
