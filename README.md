@@ -36,13 +36,11 @@ Files are put to folders according to ther complexity at Codewars.
 Files are named the same they are in Codewars site.
 List is added each time I get to some new task.
 
-
 <h2> Plans for development: </h2>
 
 Some day in future when I become older and decide to do a catalogue, this may lead to a wevsite with solutions. But please remember the quote: 
 <quote>"It means your future hasn't been written yet. No one's has. Your future is whatever you make it. So make it a good one, both of you." </quote>
 
 <h2> Stats </h2>
-My current Codewars stats: 
-<!-- ![codewars](https://www.codewars.com/users/konung-nvkz/badges/small) -->
-<div class="bg-contrast-300 mb-4 p-4"><img alt="Light Badge (small)" class="block dark:hidden" src="/users/konung-nvkz/badges/small?theme=light"><img alt="Dark Badge (small)" class="hidden dark:block" src="/users/konung-nvkz/badges/small"><div class="mt-4"><b>URL:</b><div class="ml-4 inline-block dark:hidden">https://www.codewars.com/users/konung-nvkz/badges/small?theme=light</div><div class="ml-4 hidden dark:inline-block">https://www.codewars.com/users/konung-nvkz/badges/small</div></div></div>
+My current Codewars stats:
+![Codewars](https://www.codewars.com/users/konung-nvkz/badges/small)
