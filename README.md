@@ -44,4 +44,5 @@ Some day in future when I become older and decide to do a catalogue, this may le
 
 <h2> Stats </h2>
 My current Codewars stats: 
-![codewars](https://www.codewars.com/users/konung-nvkz/badges/small)
+<!-- ![codewars](https://www.codewars.com/users/konung-nvkz/badges/small) -->
+<div class="bg-contrast-300 mb-4 p-4"><img alt="Light Badge (small)" class="block dark:hidden" src="/users/konung-nvkz/badges/small?theme=light"><img alt="Dark Badge (small)" class="hidden dark:block" src="/users/konung-nvkz/badges/small"><div class="mt-4"><b>URL:</b><div class="ml-4 inline-block dark:hidden">https://www.codewars.com/users/konung-nvkz/badges/small?theme=light</div><div class="ml-4 hidden dark:inline-block">https://www.codewars.com/users/konung-nvkz/badges/small</div></div></div>
