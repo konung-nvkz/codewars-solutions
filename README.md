@@ -1,11 +1,11 @@
 # codewars-tasks-solutions
 
-<h1> Information.</#>
+<h1> Information.</h1>
 
-<h2>What is it?</#>
+<h2>What is it?</h2>
 This repo represents my variants of <a href="https://www.codewars.com/kata/" alt="https://www.codewars.com/kata/"> Codewars kata</a>  solutions. Sometimes ifelses, sometimes more complicated variants. Simply JS. 
 
-<h3> Long description</h3
+<h3> Long description</h3>
 In broad sence it is not a program, just a description from the author of the tasks put in the beginning of the file and pieces of code - my attempts to solve the task.
 If I have mood to create more than one solution, I will add it up.
 In this case I am likely to rename function in order to avoid errors in VScode or elsewhere.
