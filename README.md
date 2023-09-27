@@ -1,11 +1,11 @@
 # codewars-tasks-solutions
 
-<#> Information.</#>
+<h1> Information.</#>
 
-<##>What is it?</#>
+<h2>What is it?</#>
 This repo represents my variants of <a href="https://www.codewars.com/kata/" alt="https://www.codewars.com/kata/"> Codewars kata</a>  solutions. Sometimes ifelses, sometimes more complicated variants. Simply JS. 
 
-<###> Long description</###>
+<h3> Long description</h3
 In broad sence it is not a program, just a description from the author of the tasks put in the beginning of the file and pieces of code - my attempts to solve the task.
 If I have mood to create more than one solution, I will add it up.
 In this case I am likely to rename function in order to avoid errors in VScode or elsewhere.
@@ -13,7 +13,7 @@ That means code will not work in Codewars, though the concept is correct.
 As I only study how to work with JS (and sometimes Python), most solutions are obvius for experienced programmers. I am also not that good at algorithms, so sometimes my solutions have complexity of O(n) where it can be O(log(n)) or even O(1).
 Please keep that in mind.
 
-<##>Comments.</#>
+<h2>Comments.</h2>
 In some cases I add up comments.
 That doesn't look professional.
 Commments are obvious for mature programmers.
