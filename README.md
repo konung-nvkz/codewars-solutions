@@ -30,7 +30,7 @@ Most files usually (but not necessary) have the same structure:
 Description from Codewars kata. Is commented. Contains the name of Kata, and information that its author has given. 
 May look like this:
 
-<img src="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/files_for_examples/01_description.png" alt="description">
+<img src="https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/01_description.png" alt="description">
 
 <h3>Solution</h3>
 My variant or variants of task solution. 
