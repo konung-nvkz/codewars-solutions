@@ -38,6 +38,7 @@ May look like this:
 My variant (or several variants) of task solution.
 Usually represents a JS function, more rarely, some other functions.
 Necessary part of the file.
+
 May look like this:
 
 <img src="https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/02_solution.png" alt="solution">
@@ -58,7 +59,9 @@ May look like this:
 <h3>Test cases</h3>
 Also an unnecessary section. Sometimes I need to check whether my function works before commiting it. Yes, I understand it is a bad practice to have console.logs everywhere.
 May be some day I will start writing correct test cases.
+
 At the moment may look like this:
+
 
 <img src="https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/04_test_cases.png" alt="test cases">
 
