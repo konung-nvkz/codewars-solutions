@@ -26,10 +26,12 @@ May be later That will be done better.
 
 Files are put to folders according to ther complexity at Codewars.
 
-<a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/5_kyu_Solutions"> Folder for 5 kyu solutions</a>
-<a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/6_kyu_Solutions"> Folder for 6 kyu solutions</a>
-<a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/7_kyu_Solutions"> Folder for 7 kyu solutions</a>
-<a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/8_kyu_Solutions"> Folder for 8 kyu solutions</a>
+<ul>
+<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/5_kyu_Solutions"> Folder for 5 kyu solutions</a></li>
+<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/6_kyu_Solutions"> Folder for 6 kyu solutions</a></li>
+<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/7_kyu_Solutions"> Folder for 7 kyu solutions</a></li>
+<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/8_kyu_Solutions"> Folder for 8 kyu solutions</a></li>
+</ul>
 
 Files are named the same they are in Codewars site.
 List is added each time I get to some new task.
@@ -42,4 +44,9 @@ Some day in future when I become older and decide to do a catalogue, this may le
 
 <h2> Stats </h2>
 My current Codewars stats: 
-[![codewars](https://www.codewars.com/users/konung-nvkz/badges/small)](https://www.codewars.com/users/konung-nvkz) 
+
+![Codewars](https://github.r2v.ch/codewars?user=konung-nvkz&stroke=black)
+
+
+![codewars](https://www.codewars.com/users/konung-nvkz/badges/small)
+(https://www.codewars.com/users/konung-nvkz) 
