@@ -2,7 +2,7 @@
 
 ## Information
 
-## What is it?
+### What is it?
 
 This repo represents my variants of [Codewars kata](https://www.codewars.com/kata/) solutions. Sometimes ifelses, sometimes more complicated variants. Simply JS.
 
