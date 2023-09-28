@@ -19,10 +19,10 @@ Please keep that in mind.
 
 Files are put to folders according to their complexity at Codewars.
 
-*[Folder for 5 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/5_kyu_Solutions)
-*[Folder for 6 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/6_kyu_Solutions)
-*[Folder for 7 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/7_kyu_Solutions)
-*[Folder for 8 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/8_kyu_Solutions)
+⋅⋅+[Folder for 5 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/5_kyu_Solutions)
+⋅⋅+[Folder for 6 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/6_kyu_Solutions)
+⋅⋅+[Folder for 7 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/7_kyu_Solutions)
+⋅⋅+[Folder for 8 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/8_kyu_Solutions)
 
 Most files usually (but not necessary) have the same structure:
 
