@@ -19,12 +19,10 @@ Please keep that in mind.
 
 Files are put to folders according to their complexity at Codewars.
 
-<ul>
-<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/5_kyu_Solutions"> Folder for 5 kyu solutions</a></li>
-<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/6_kyu_Solutions"> Folder for 6 kyu solutions</a></li>
-<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/7_kyu_Solutions"> Folder for 7 kyu solutions</a></li>
-<li><a href="https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/8_kyu_Solutions"> Folder for 8 kyu solutions</a></li>
-</ul>
+*[Folder for 5 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/5_kyu_Solutions)
+*[Folder for 6 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/6_kyu_Solutions)
+*[Folder for 7 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/7_kyu_Solutions)
+*[Folder for 8 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/8_kyu_Solutions)
 
 Most files usually (but not necessary) have the same structure:
 
@@ -34,8 +32,7 @@ Description from Codewars kata. Is commented. Contains the name of Kata, and inf
 Necessary part of the file.
 
 May look like this:
-
-<img src="https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/01_description.png" alt="description">
+![Description](https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/01_description.png "Description")
 
 ### Solution
 
@@ -45,7 +42,7 @@ Necessary part of the file.
 
 May look like this:
 
-<img src="https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/02_solution.png" alt="solution">
+![Solution](https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/02_solution.png "Solution")
 
 ### Comments
 
@@ -58,7 +55,7 @@ Deal with it. I do comments for me. Sometimes I need notes to understand how it 
 
 May look like this:
 
-<img src="https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/03_comments.png" alt="comments">
+![Comments](https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/03_comments.png "Comments")
 
 ### Test cases
 
@@ -67,7 +64,7 @@ May be some day I will start writing correct test cases.
 
 At the moment may look like this:
 
-<img src="https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/04_test_cases.png" alt="test cases">
+![Test cases](https://github.com/konung-nvkz/codewars-tasks-solutions/blob/main/files_for_examples/04_test_cases.png "Test cases")
 
 ## Further notes
 
