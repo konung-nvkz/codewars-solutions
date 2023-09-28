@@ -27,7 +27,7 @@ Files are put to folders according to their complexity at Codewars.
 
 * [Folder for 8 kyu solutions](https://github.com/konung-nvkz/codewars-tasks-solutions/tree/main/8_kyu_Solutions)
 
-Most files usually (but not necessary) have the same structure:
+Most files usually (but not necessarily) have the same structure:
 
 ### Description
 
