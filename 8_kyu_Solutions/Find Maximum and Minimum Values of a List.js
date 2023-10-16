@@ -28,7 +28,7 @@ const min = (list) => Math.min(...list);
 const max = (list) => Math.max(...list);
 */
 
-// just an pposite sort:
+// just an opposite sort:
 
 /*const min = list => list.sort((a, b) => a - b)[0];
 
