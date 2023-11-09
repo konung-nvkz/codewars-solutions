@@ -22,3 +22,7 @@ function minimum(a, x) {
 console.log(minimum(10, 6)); //2
 console.log(minimum(13, 6)); //1
 console.log(minimum(12, 6)); //0
+
+function minimum(a, x) {
+    return (a%x < x/2)? a%x : x-a%x;
+}
