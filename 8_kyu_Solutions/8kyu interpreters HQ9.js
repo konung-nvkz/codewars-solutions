@@ -42,7 +42,9 @@ function HQ9(code) {
         return undefined;
     }
 }
-// In order I have a wish t change "beer" for any other drin, I can coose random from any of these drinks:
+
+// In order I have a wish to change "beer" for any other drink, 
+//I can choose random from any of these drinks:
 // Sixpack
 // Rum
 // Cognac
