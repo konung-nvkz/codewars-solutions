@@ -22,6 +22,7 @@ const str = "The30quick20brown10f0x1203jumps914ov3r1349the102l4zy dog";
 const sum = sumOfIntegersInString(str);
 console.log(sum); // Output: 3635
 
+//one more variant in fact the same, but simplified to one line.
 function sumOfIntegersInString(s) {
     return (s.match(/\d+/g) || []).reduce((s, n) => s + +n, 0);
   }
