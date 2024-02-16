@@ -12,3 +12,5 @@ returns:
 function combineNames(first, last) {
     return first + ' ' + last;
 }
+
+const combineNames = (...names) => names.join(' ');
