@@ -35,29 +35,4 @@ function flipNumber(str) {
 //We then reverse the second subarray using the reverse() method 
 //and concatenate the two subarrays back together using the concat() method.
 
-
-console.log(reverseFun("012345")); // Output: "504132"
-
-
-// Easier solution:
-
-function reverseFun(str) {
-    // Convert the input string to an array
-    let arr = Array.from(str);
-
-    let left = 0;
-    let right = arr.length - 1;
-
-    // Iterate until the two pointers meet
-    while (left < right) {
-      // Swap the characters at the left and right positions
-    [arr[left], arr[right]] = [arr[right], arr[left]];
-
-      // Move the pointers towards the center
-        left++;
-        right--;
-    }
-
-    // Join the array elements back into a string and return the result
-    return arr.join("");
-}
+console.log(flipNumber("012345"));
