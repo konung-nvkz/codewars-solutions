@@ -1,4 +1,4 @@
-# Codewars-tasks-solutions
+# Codewars-solutions
 
 ## Information
 
