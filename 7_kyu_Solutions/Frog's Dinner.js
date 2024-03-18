@@ -24,3 +24,5 @@ function frogContest(n) {
 };
 
 console.log(frogContest(5)); // "Chris ate {15} flies, Tom ate {28} flies and Cat ate {946} flies"
+console.log(frogContest(6)); // "Chris ate {21} flies, Tom ate {55} flies and Cat ate {2926} flies"
+console.log(frogContest(24)); // "Chris ate {300} flies, Tom ate {11325} flies and Cat ate {67576125} flies"
