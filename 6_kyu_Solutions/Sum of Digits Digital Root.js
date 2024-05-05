@@ -19,7 +19,11 @@ function digital_root(n) {
 //If the remainder is 0 and the number is greater than 0, then the digital root is 9. 
 //If the number is 0, then the digital root of the number is 0.
 
-console.log(digital_root(-10));
-console.log(digital_root(9));
-console.log(digital_root(16));
-console.log(digital_root(493193));
+//Simple tests
+console.log(digital_root(10000));//1
+console.log(digital_root(-10));//-1
+console.log(digital_root(9));//9
+console.log(digital_root(16)); //7
+console.log(digital_root(493193));//2
+console.log(digital_root(1011000100001));//5
+console.log(digital_root(111010110111100110100010101));//5
