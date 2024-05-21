@@ -23,6 +23,8 @@ function findAll(arr, num) {
 //Tests
 
 console.log(findAll([6, 9, 3, 4, 3, 82, 11], 3));// => [2, 4]
+console.log(findAll([5, 6, 9, 3, 5, 3, 17, 11], 3));// => [3, 5]
+
 
 //We can either use forEach method:
 
