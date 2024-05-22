@@ -15,5 +15,5 @@ function search(budget, prices) {
         .sort((a, b) => a - b)
         .join(',');
 }
-
+//Simple test
 console.log((search(3, [6, 1, 2, 9, 2]))); //1,2,2
