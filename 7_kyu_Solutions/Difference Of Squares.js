@@ -28,3 +28,5 @@ function differenceOfSquares(n) {
 
 //Test
 console.log(differenceOfSquares(10))//2640
+console.log(differenceOfSquares(15))//13120
+console.log(differenceOfSquares(17))//21624
