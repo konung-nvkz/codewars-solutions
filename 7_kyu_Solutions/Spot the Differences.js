@@ -35,3 +35,5 @@ function spot(s1, s2) {
 
 //Tests
 console.log(spot("abcdefg", "abcqetg")); //[3, 5]
+console.log(spot("12345", "12345")); //[]
+console.log(spot("abcdefg", "abcdefg")); //[]
