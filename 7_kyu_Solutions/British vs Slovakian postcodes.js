@@ -34,47 +34,22 @@ SE 21 7AA - Should only contain 2 segments
 070  08 - Should have single space separating the two segments, not double space
 */
 
-function checkInputValidity(input) {
-    // Check for 3 numbers in the first segment and 2 numbers in the second segment
-    const segments = input.split(" ");
-        if (segments.length !== 2 || segments[0].length !== 3 || segments[1].length !== 2) {    
-            return "Not valid";  
-        }  
+function whichPostcode(postcode){
 
-        // Check for more than one space in the input
-        if (input.match(/\s/g).length > 1) {
-            return "Not valid";  
-        }
-        // Check for double spaces in the input
-        if (input.includes("  ")) {
-            return "Not valid";  
-        }
-        // If all checks pass, return "Valid"
-        return "Valid";
-}
+    //Check if the postcode matches the format of a UK postcode. 
+    //It looks for one or two letters followed by one or two digits, a space, and then one digit followed by two letters. 
+    //The i flag makes the regular expression case-insensitive.
+    if(/^\s*[a-z]{1,2}\d\d? \d[a-z]{2}\s*$/i
+        .test(postcode)) 
+        return "GB";
 
-// Example usage:
-console.log(checkInputValidity("0765 820")); // Not valid
-console.log(checkInputValidity("SE 21 7AA")); // Not valid
-console.log(checkInputValidity("070  08")); // Not valid
-console.log(checkInputValidity("123 45")); // Valid
-
-
-function whichPostcode(str) {
-    const validity = checkInputValidity(str);
-
-    if (validity === "Valid") {
-        // Check if the input string is a valid British postcode
-        if (str.match(/[A-Za-z]{1,2}\d{1,2}\s\d[A-Za-z]{2}/)) {
-            return "GB";
-        }
-        // Check if the input string is a valid Slovakian postcode
-        if (str.match(/\d{3}\s\d{2}/)) {
-            return "SK";
-        }
-    }
-
-    // If the input string is not a valid British or Slovakian postcode, return "Not valid"
+    //Check if the postcode matches the format of a Slovakian postcode. 
+    //It looks for three digits, a space, and then two digits. 
+    //If the postcode matches this format, the function returns "SK", indicating that it is a Slovakian postcode.
+    if(/^\s*\d{3} \d{2}\s*$/
+        .test(postcode)) 
+        return "SK";
+    //For other variants return "Not Valid"
     return "Not valid";
 }
 
@@ -89,35 +64,4 @@ console.log(whichPostcode("984 59")); // SK
 console.log(whichPostcode("0765 820")); // Not valid
 console.log(whichPostcode("SE 21 7AA")); // Not valid
 console.log(whichPostcode("070  08")); // Not valid
-console.log(whichPostcode("123 45")); // Not valid
-
-
-const {assert} = require("chai");
-
-describe("Sample tests", function() {
-  it("should return 'GB' for valid British postcode", function() {
-    assert.strictEqual(whichPostcode("DN1 1AA"), "GB", "DN1 1AA");
-  });
-  it("should return 'SK' for valid Slovakian postcode", function() {
-    assert.strictEqual(whichPostcode("040 01"), "SK", "040 01");
-    assert.strictEqual(whichPostcode("070 08"), "SK", "070 08");
-  });
-  it("should return 'GB' for valid British postcode with leading or tailing spaces", function() {
-    assert.strictEqual(whichPostcode("G4 7Ah  "), "GB", "G4 7Ah  ");
-  });
-  it("should return 'SK' for valid Slovakian postcode with leading or tailing spaces", function() {
-    assert.strictEqual(whichPostcode("  810 08"), "SK", "  810 08");
-  });
-  it("should return 'Not valid' for invalid British postcode", function() {
-    assert.strictEqual(whichPostcode("G4  7AH"), "Not valid", "G4  7AH");
-    assert.strictEqual(whichPostcode("12 8NU"), "Not valid", "12 8NU");
-    assert.strictEqual(whichPostcode("DN1 AAA"), "Not valid", "DN1 AAA");
-    assert.strictEqual(whichPostcode("SE21 AA7"), "Not valid", "SE21 AA7");
-    assert.strictEqual(whichPostcode("SE217AA"), "Not valid", "SE217AA");
-  });
-  it("should return 'Not valid' for invalid Slovakian postcode", function() {
-    assert.strictEqual(whichPostcode("810  08"), "Not valid", "810  08");
-    assert.strictEqual(whichPostcode("40 01"), "Not valid", "40 01");
-    assert.strictEqual(whichPostcode("04001"), "Not valid", "04001"); 
-  });
-});
+console.log(whichPostcode("123 45")); // SK
