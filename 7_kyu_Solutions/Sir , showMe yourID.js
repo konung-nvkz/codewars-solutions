@@ -13,11 +13,14 @@ Now is your time to help the guards !
 */
 
 function showMe(yourID) {
-    return /^[A-Z]/.test(yourID) && /^\S+$/.test(yourID);
+    return /^[A-Z][a-z]+(\-[A-Z][a-z]+)*$/.test(yourID)
 }
 function showMe(yourID) {
     return /^[A-Z][a-z]*(-[A-Z][a-z]*)*$/.test(yourID);
 }
+
+
+
 
 
 // Tests 
