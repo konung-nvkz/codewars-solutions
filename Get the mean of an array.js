@@ -16,3 +16,4 @@ function getAverage(marks){
 //Test case
 
 console.log(getAverage([1,2,3,4,5,]))//3
+console.log(getAverage([1,2,3,4,5,7,9]))//4
