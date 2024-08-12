@@ -20,7 +20,8 @@ function distancesFromAverage(arr) {
     return arr.map(value => Math.round((average - value) * 100) / 100);
 }
 
-//First I undersood that we should tale average from the value in the last line, but according to tests it is different.
+//First I undersood that we should tale average from the value in the last line,
+// but according to tests it is different.
 
 // Tests
 const contacts = [55, 95, 62, 36, 48];
