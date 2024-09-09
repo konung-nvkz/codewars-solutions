@@ -16,4 +16,10 @@ function stringClean(s){
 function stringClean(s){
     return s.replace(/\d/g, "");
 }
-//Simple knwledge of regexp. No tests.
+//Simple knowledge of regexp. No tests.
+
+function stringClean(s){
+    return s.split('')
+        .filter((n) => n != parseInt(n))
+        .join('');
+}
