@@ -28,6 +28,8 @@ function finalGrade (exam, projects) {
         (exam>75 && projects>=5) ? 90 :
         (exam>50 && projects>=2) ? 75 : 0;
 }
+
+//Tests
 console.log(finalGrade(100, 12)); // 100);
 console.log(finalGrade(99, 0));// 100);
 console.log(finalGrade(10, 15));// 100);
