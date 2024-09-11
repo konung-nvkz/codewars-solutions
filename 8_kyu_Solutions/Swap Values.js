@@ -12,6 +12,6 @@ function swapValues(arr) {
     //     args[1] = temp;
         return arr.reverse()
 }
-
-//initial code does different thing from what it is suposed to do.
+//Comment on code
+//initial code does different thing from what it is supposed to do.
 // insrtead we use reverse method to change array
