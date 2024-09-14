@@ -7,6 +7,6 @@ Help Timmy with his string template so it works as he expects!
 function buildString(...template){
     return `I like ${template.join(', ')}!`;
 }
-
+//Hint:
 // use $ instead of #
 // added space after ','
